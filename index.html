@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>##QQ注册</title>
 </head>
 
 <body>
     <header>
-        <div>
-            <img src="#" alt=""> <span>QQ</span>
+        <div class="header-QQ">
+            <img src="https://4.url.cn/zc/v3/img/logo.png" alt=""> <span>QQ</span>
+            <img src="https://4.url.cn/zc/v3/img/01-3.jpg" alt="">
         </div>
-        <div>
-            <button type="button">QQ靓号</button>
-            <img src="" alt=""> <a href="#">邮箱账号</a>
+        <div class="header-nav">
+            <img src="https://4.url.cn/zc/v3/img/logo3@2x.png" width="20px">
+            <button type="button" s>QQ靓号</button>
+            <img src="images/he-email.png" width="20px"><a href="#">邮箱账号</a>
             <select name="language" id="">
                 <option value="cn">简体中文</option>
                 <option value="f-cn">繁体中文</option>
@@ -26,54 +28,59 @@
     </header>
     <main>
         <form action="#" method="POST">
-            <div>
+            <div class="form-Registered QQ">
                 <h1>欢迎注册QQ</h1>
                 <h3>每一天，乐在沟通</h3>
                 <a href="#">免费靓号</a>
             </div>
-            <div>
+            <div class="form-nickname">
                 <input type="text" name="nickname" placeholder="昵称" id="user-nickname">
             </div>
-            <div>
-                <input type="text" name="password" placeholder="密码" id="user-password">
-                <span>
+            <div class="form-password">
+                <input type="password" name="password" placeholder="密码" id="user-password">
+                <div class="form-password-required ">
                     <ul>
                         <li>不能包括空格</li>
                         <li>长度必须为8-16个字符</li>
                         <li>必须包含字母、数字、符号中至少两种</li>
                     </ul>
-                </span>
+                </div>
             </div>
-            <div>
+            <div class="form-cell-phone">
                 <select name="tphone" id="">
-                    <option value="1">中国+86</option>
-                    <option value="1">中国香港特别行政区+852</option>
-                    <option value="1">中国澳门特别行政区+853</option>
-                    <option value="1">中国台湾地区+886</option>
-
+                    <option value="+86">中国+86</option>
+                    <option value="+852">中国香港特别行政区+852</option>
+                    <option value="+853">中国澳门特别行政区+853</option>
+                    <option value="+886">中国台湾地区+886</option>
                 </select>
                 <input type="text" name="phone" placeholder="手机号" id="">
-
             </div>
             <div>
                 <span>可以通过手机找回密码</span>
             </div>
-            <div>
+            <div class="form-SMS">
+                <input type="text" name="SMS" placeholder="短信验证码">
+                <button type="button">发送短信验证码</button>
+            </div>
+            <div class="registered">
                 <button type="button">立即注册</button>
             </div>
-           
         </form>
     </main>
     <footer>
-        <ul>
-            <li><input type="checkbox" checked="checked">同时开通QQ空间</li>
-            <li><input type="checkbox" checked="checked">我已阅读并同意相关服务条款和隐私政策</li>
-        </ul>
-        <ul>
-            <li><a href="#">《QQ号码规则》</a></li>
-            <li><a href="#">《隐私政策》</a></li>
-            <li><a href="#">《QQ空间服务协议》</a></li>
-        </ul>
+        <div class="instructions">
+            <ul>
+                <li><input type="checkbox" checked="checked" value="">同时开通QQ空间</li>
+                <li><input type="checkbox" checked="checked">我已阅读并同意相关服务条款和隐私政策</li>
+            </ul>
+        </div>
+        <div class="agreement">
+            <ul>
+                <li><a href="#">《QQ号码规则》</a></li>
+                <li><a href="#">《隐私政策》</a></li>
+                <li><a href="#">《QQ空间服务协议》</a></li>
+            </ul>
+        </div>
         <div><span>Copyright © 1998-2019Tencent All Rights Reserved</span></div>
     </footer>
 </body>
