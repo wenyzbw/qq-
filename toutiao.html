@@ -5,31 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>##今日头条</title>
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="download">
+            <a href="#">下载</a>
+        </div>
+        <div class="he-weather">
+            <button type="weather">北京 晴 -10°/7° </button>
             <ul>
-                <li><a href="#">下载</a></li>
-                <li><button type="button">北京</button></li>
-                <li>
-                    <a href="#">北京</a>
-                </li>
+                <li> <a href="#">北京</a></li>
+                <li> <span>西南风1级</span> </li>
+                <li> <span>良 55</span></li>
             </ul>
+        </div>
+        <div class="Place names">
+            <select name="provinces" id="">
+                <option value="北京">北京</option>
+                <option value="河南">河南</option>
+                <option value="江苏">江苏</option>
+                <option value="天津">天津</option>
+            </select>
+            <select name="city" id="">
+                <option value="北京">北京</option>
+                <option value="泰州">泰州</option>
+                <option value="无锡">无锡</option>
+                <option value="青岛">青岛</option>
+            </select>
+        </div>
+        <div class="product">
             <ul>
                 <li><a href="#">侵权投诉</a></li>
                 <li><button type="button">头条产品</button></li>
                 <li>
-                    <ul>
-                        <li><a href="#">问答</a></li>
-                        <li><a href="#">问答</a></li>
-                        <li><a href="#">问答</a></li>
-                        <li><a href="#">问答</a></li>
-                        <li><a href="#">问答</a></li>
-                        <li><a href="#">问答</a></li>
-                    </ul>
+                    <div>
+                        <ul>
+                            <li><a href="#">问答</a></li>
+                            <li><a href="#">头条号</a></li>
+                            <li><a href="#">图虫</a></li>
+                            <li><a href="#">正版书库</a></li>
+                            <li><a href="#">广告投放</a></li>
+                            <li><a href="#">懂车帝</a></li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -44,12 +64,12 @@
             <li><a href="#">科技</a></li>
             <li><a href="#">娱乐</a></li>
             <li><a href="#">体育</a></li>
-            <li><a href="#">推荐</a></li>
-            <li><a href="#">推荐</a></li>
+            <!-- <li><a href="#">推荐</a></li>
+            <li><a href="#">推荐</a></li> -->
         </ul>
     </nav>
-    <figure>
-        <div>
+    <figure class="f-news">
+        <div class="news">
             <span>要闻</span>
             <a href="#">
                 <div>
@@ -58,23 +78,201 @@
                 </div>
             </a>
         </div>
-        <div>
+        <div class="social">
             <span>社会</span>
             <a href="#">
                 <div>
-                    <img src="https://p3.pstatp.com/origin/da9100080153032e0112" alt="" width="200px">
-                    <h3>山寨版《华盛顿邮报》散播假消息 称特朗普要辞职？</h3>
+                    <img src="https://p9.pstatp.com/origin/da6a00030b2ba4d404bd" alt="" width="200px">
+                    <h3>济南这么爱盖违建别墅？“大白宫”没了，曾一口气拆建17栋</h3>
                 </div>
             </a>
         </div>
+        <!-- <div class="social">
+            <span>社会</span>
+            <a href="#">
+                <div>
+                    <img src="https://p9.pstatp.com/origin/da6a00030b2ba4d404bd" alt="" width="200px">
+                    <h3>济南这么爱盖违建别墅？“大白宫”没了，曾一口气拆建17栋</h3>
+                </div>
+            </a>
+        </div> -->
     </figure>
     <figure>
         <div>
-            <video src=""></video>
-            <h2>「独家V观」习近平在天津考察</h2>
+            <video src="#"></video>
+            <h3>「独家V观」习近平在天津考察</h3>
+            <img src="https://p3.pstatp.com/large/6ee500006a1b9c777420" width="20px" alt="">
+            <span>央视新闻移动网</span>
+            <a href="#">76万次播放</a>
         </div>
+        <div>
+            <img src="https://p9.pstatp.com/list/190x124/pgc-image/e75197f52b11466ca4f4c02ccf40fa2b" alt="" width="200px">
+            <h3>政法工作四大任务怎么干？习近平这样部署</h3>
+            <a href="#">时政</a>
+            <img src="https://p1.pstatp.com/large/bc20000b91968707dab" width="20px" alt="">
+            <a href="#">央视新闻移动网</a>
+            <a href="#">7715评论</a>
+            <span>1小时前</span>
+        </div>
+        <div>
+            <img src="https://p1.pstatp.com/list/190x124/pgc-image/RFMeTIQ4bo9mxs" alt="" width="200px">
+            <h3>台湾专家：岛内政治生态复杂 2019年台海形势充满变数</h3>
+            <a href="#">时政</a>
+            <img src="https://p1.pstatp.com/large/bc20000b91968707dab" width="20px" alt="">
+            <a href="#">台海网</a>
+            <a href="#">95评论</a>
+            <span>1小时前</span>
+        </div>
+        <!-- <div>
+            <img src="https://p1.pstatp.com/list/190x124/pgc-image/RFMeTIQ4bo9mxs" alt="" width="200px">
+            <h3>台湾专家：岛内政治生态复杂 2019年台海形势充满变数</h3>
+            <a href="#">时政</a>
+            <img src="https://p1.pstatp.com/large/bc20000b91968707dab" width="20px" alt="">
+            <a href="#">台海网</a>
+            <a href="#">95评论</a>
+            <span>1小时前</span>
+        </div> -->
     </figure>
-
+    <form action="#">
+        <div class="d-search">
+            <input type="text" name="search" placeholder="请输入要搜索的内容">
+            <span>搜索</span>
+        </div>
+        <div>
+            <h5>登录后可以保存您的浏览喜好、评论、收藏，并与APP同步更可以发布微头条</h5>
+            <button type="button">登录</button>
+            <a href="#"><img src="images/QQ.png" width="20px" alt="">QQ</a>
+            <a href="#"><img src="images/weixin.png" width="20px" alt="">微信</a>
+        </div>
+    </form>
+    <figure class=" right-taobao">
+        <a href="#">
+            <div>
+                <span>淘宝网</span>
+                <img src="https://gma.alicdn.com/bao/uploaded/i3/32631185/TB26_aQXxZIL1JjSZFNXXXupXXa_!!0-saturn_solar.jpg_250x250.jpg_.webp"
+                    alt="">
+            </div>
+        </a>
+    </figure>
+    <div class="News for 24 hours">
+        <h3>24小时热闻</h3>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="https://p1.pstatp.com/list/240x240/pgc-image/RFOg2Mk1A4iN7F" alt="">
+                    <span>中央广电总台被市场监管总局约谈 涉嫌广告违法</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://p1.pstatp.com/list/240x240/pgc-image/f891feb387104bd49ea85be06cd4ee42" alt="">
+                    <span>小罐茶背后的营销大师，25岁成最年轻富豪，靠炒作身家超10亿</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://p9.pstatp.com/list/240x240/pgc-image/d65d29a1cab44e5f8010e0412b32ba91" alt="">
+                    <span>朱军风波后首现身滨海微电影颁奖礼，登台颁奖精神焕发情绪饱满</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://p1.pstatp.com/list/240x240/pgc-image/RF70cEaGkNO1qJ" alt="">
+                    <span>美欲对华为进行刑事调查 中方：对美真实意图表示怀疑</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <figure class="taobao">
+        <a href="#">
+            <div>
+                <span>淘宝网</span>
+                <img src="https://gma.alicdn.com/bao/uploaded/i1/55212908/O1CN011XLuE2Jy9tq6d6L_!!0-saturn_solar.jpg_250x250.jpg_.webp"
+                    alt="">
+            </div>
+        </a>
+        <a href="#">
+            <div>
+                <span>淘宝网</span>
+                <img src="https://gma.alicdn.com/bao/uploaded/i1/40673225/TB2z39RDWSWBuNjSsrbXXa0mVXa_!!0-saturn_solar.jpg_250x250.jpg_.webp"
+                    alt="">
+            </div>
+        </a>
+    </figure>
+    <figure class="picture">
+        <h3>精彩图片</h3>
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="https://p3.pstatp.com/list/300x170/pgc-image/f198d86cc7a94cd5b502c708d261ee6e" alt="">
+                    <span>17岁女孩患病前后判若两人，8次被下病危通知，妈妈跪地捶胸痛哭</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://p1.pstatp.com/list/300x170/pgc-image/a8d9a0be1b32472fa569111641ffc8ec" alt="">
+                    <span>中午吃完饭，在青岛城市阳台南岸一游</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://p3.pstatp.com/list/300x170/pgc-image/e41add4820dd4e1a8f0ad11114592890" alt="">
+                    <span>海南岛上的千年古盐田，居然利用火山石和潮汐，古人太聪明！</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://p1.pstatp.com/list/300x170/pgc-image/63d061137773410db690fbbb9bdbe9ed" alt="">
+                    <span>卫星图带你了解一个更真实的美国</span>
+                </a>
+            </li>
+            <!-- <li>
+                <a href="#">
+                    <img src="https://p1.pstatp.com/list/300x170/pgc-image/63d061137773410db690fbbb9bdbe9ed" alt="">
+                    <span>卫星图带你了解一个更真实的美国</span>
+                </a>
+            </li> -->
+        </ul>
+    </figure>
+    <div class="more">
+        <ul>
+            <h3>更多</h3>
+            <a href="#">关于头条</a>
+            <a href="#">加入头条</a>
+            <a href="#">媒体报道</a>
+            <a href="#">媒体合作</a>
+            <!-- <a href="#">媒体合作</a> -->
+        </ul>
+    </div>
+    <div class="link">
+        <ul>
+            <h3>友情链接</h3>
+            <a href="#">光明网</a>
+            <a href="#"> 央广网</a>
+            <a href="#"> 国际在线</a>
+            <a href="#">中国西藏网</a>
+            <!-- <a href="#">中国西藏网</a> -->
+        </ul>
+    </div>
+    <footer>
+        <div class="note">
+            <ul>
+                <li>© 2019 今日头条</li>
+                <li>中国互联网举报中心 京ICP证140141号</li>
+                <li>京ICP备12025439号-3 网络文化经营许可证</li>
+                <li>京-非经营性-2016-0081</li>
+                <li>互联网药品信息服务资格证书</li>
+                <li>跟帖评论自律管理承诺书</li>
+                <li>违法和不良信息举报：010-58341833</li>
+                <li>公司名称：北京字节跳动科技有限公司</li>
+                <li><a href="#">
+                        <img src="https://s3.pstatp.com/toutiao/static/img/gongan.d0289dc.png" alt="">
+                        <span>京公网安备 11000002002023号</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
