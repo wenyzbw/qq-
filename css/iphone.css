@@ -7,3 +7,18 @@ a{
 .red{
     color: red
 }
+
+.b-link { 
+    color: #359eff 
+}
+
+.b-link :hover{
+    color: blue
+}
+
+.watch ::after{
+    content: "";
+    display:block;
+    clear: both;
+
+}
