@@ -1,0 +1,38 @@
+h3{
+    margin: 0;
+}
+.qq{
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+
+.day{
+    float: left;
+    font-size: 28px;
+    margin-bottom: 64px;
+    line-height: 1.2;
+    color: #333;
+}
+
+a{
+    outline: 0;
+    text-decoration: none;
+    color:rgb(124, 124, 124);
+}
+
+.free {
+    float: right;
+    font-size: 24px;
+    color: #359eff 
+}
+
+.free:hover{
+    color: blue
+}
+
+.welcome::after{
+    content: "";
+    display:block;
+    clear: both;
+
+}
