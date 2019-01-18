@@ -2,13 +2,13 @@ h3{
     margin: 0;
 }
 .qq{
-    font-size: 44px;
+    font-size: 102px;
     margin-bottom: 20px;
 }
 
 .day{
     float: left;
-    font-size: 28px;
+    font-size: 65px;
     margin-bottom: 64px;
     line-height: 1.2;
     color: #333;
@@ -22,7 +22,7 @@ a{
 
 .free {
     float: right;
-    font-size: 24px;
+    font-size: 59px;
     color: #359eff 
 }
 
