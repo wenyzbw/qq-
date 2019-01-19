@@ -1,14 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+main {
+    width: 886px 660px;
+    margin: auto 50% ;
+}
+form {
+    width: 480px;
+    height: 600px;
+
+}
+
+input,
+select {
+    border: 1px #aaa solid;
+    border-radius: 4px;
+    background: 0 0;
+    text-align: left;
+    font-size: 20px;
+    width: 480px;
+    height: 52px;
+    line-height: 50px;
+    padding: 0 20px;
+}
+li {
+    list-style: none;
+}
+select{
+    float: left;
+    width: 154px;
+    height: 52px;
+    /* display: inline; */
+}
+.nsearch {
+    float: right;
+    width: 307px;
+    height: 52px;
+    /* display: inline; */
+}
 h3{
     margin: 0;
 }
 .qq{
     font-size: 44px;
     margin-bottom: 20px;
+   font-weight: 400;
 }
 
 .day{
     float: left;
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 64px;
     line-height: 1.2;
     color: #333;
@@ -22,7 +66,7 @@ a{
 
 .free {
     float: right;
-    font-size: 30px;
+    font-size: 24px;
     color: #359eff 
 }
 
