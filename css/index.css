@@ -40,7 +40,7 @@ footer {
     border-radius: 4px;
     height: 50px;
     line-height: 50px;
-    width: 460px;
+    width: 458px;
     /* padding: 0px 20px; */
     padding-left: 20px;
     margin-bottom: 32px;
@@ -60,27 +60,28 @@ footer {
     line-height: 50px;
     padding: 0px 20px;
     font-size: 20px;
+    background-color: #fff;
 }
 .nsearch {
-    
     float: right;
-    width: 265px;
+    width: 305px;
     border: 1px solid #aaaaaa;
     border-radius: 4px;
     height: 50px;
     line-height: 50px;
     padding: 0px 20px;
     font-size: 20px;
+    box-sizing: border-box; 
 }
 .a-text {
     width: 100%;
     margin-top: 8px;
     margin-bottom: 40px;
-    padding-top: 8px;
+    /* padding-top: 8px; */
     height: 18px;
     overflow: hidden;
     position: relative;
-    line-height: 1;
+    /* line-height: 50px; */
     
 }
 .text {
