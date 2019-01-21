@@ -11,9 +11,9 @@
 
 <body>
     <header>
-        <div class="advertising"><a href="#">广告</a></div>
+        <div class="advertising"><a href="#"> &lt;广告&gt;</a></div>
         <nav>
-            <ul>
+            <ul class="mac">
                 <li><a href="#"><img src="images/he-iphone.png" width="20px"></a></li>
                 <li><a href="#">Mac</a></li>
                 <li><a href="#">iPad</a></li>
@@ -21,13 +21,14 @@
                 <li><a href="#">Watch</a></li>
                 <li><a href="#">Music</a></li>
                 <li><a href="#">技术支持</a></li>
+                <li><a href="#"><img src="images/he-search.png" width="20px"></a></li>
+                <li><a href="#"><img src="images/he-shopping.png" width="20px"></a></li>
             </ul>
             <div>
-                <button type="button"><img src="images/he-search.png" width="20px"></button>
-                <input type="text" placeholder="搜索apple.com">
-                <a href="#"></a>
+                <!-- <button type="button"><img src="images/he-search.png" width="20px"></button> -->
             </div>
-            <div>
+            <div class="nav-link">
+                <input type="text" placeholder="搜索apple.com">
                 <ul>
                     <li><span>快速链接</span></li>
                     <li><a href="#">查找零售店</a></li>
@@ -38,8 +39,8 @@
                 </ul>
             </div>
             <div>
-                <button type="button"><img src="images/he-shopping.png" width="20px"></button>
-                <ul>
+                <!-- <button type="button"><img src="images/he-shopping.png" width="20px"></button> -->
+                <ul class="nav-shopping">
                     <li><a href="#"><img src="images/he-Shopping bags.png" width="20px"> 购物袋</a></li>
                     <li><a href="#"><img src="images/he-Shopping bags.png" width="20px"> 收藏</a></li>
                     <li><a href="#"><img src="images/he-Shopping bags.png" width="20px"> 订单</a></li>
@@ -50,12 +51,17 @@
         </nav>
     </header>
     <main>
-        <div>
-            <p>限时优惠</p>
-            <h2>折抵换购，iPhone XR 仅 RMB 4399 起，iPhone XS 仅 RMB 6599 起*。</h2>
-            <h3>前往附近的 Apple Store 零售店，把你手上的 iPhone 升级换购成一个新的，时机正好。</h3>
-            <span><a href="#">进一步了解></a></span>
+        <div class="main-box1">
+            <div>
+                <p>限时优惠</p>
+                <h2>折抵换购，iPhone XR 仅 RMB 4399 起，iPhone XS </h2>
+                <h2>仅 RMB 6599 起*。 </h2>
+                <h3>前往附近的 Apple Store 零售店，把你手上的 iPhone 升级换</h3>
+                <h3>购成一个新的，时机正好。</h3>
+                <a href="#"><span>进一步了解</span> ></a> 
+            </div>
         </div>
+
         <a href="#">
             <div>
                 <img src="https://www.apple.com/cn/home/images/heroes/cny-gift-guide/hero_medium.jpg" alt="" width="200px">
@@ -89,15 +95,16 @@
             </div>
         </a>
 
-        <a href="#"  class="watch">
+        <a href="#" class="watch">
             <div>
-                <img src="https://www.apple.com/cn/home/images/promos/apple-watch-series-4/all_new_medium.jpg" alt="" width="200px">
+                <img src="https://www.apple.com/cn/home/images/promos/apple-watch-series-4/all_new_medium.jpg" alt=""
+                    width="200px">
                 <h3>WATCH</h3>
                 <h5 class="red">WSERIES 4</h5>
                 <h3>焕然一新</h3>
                 <h3>唤醒更好的你</h3>
-                <span ><a href="#" class="b-link">进一步了解></a></span>
-                <span ><a href="#" class="b-link">购买></a></span>
+                <span><a href="#" class="b-link">进一步了解></a></span>
+                <span><a href="#" class="b-link">购买></a></span>
                 <img src="#" alt="">
             </div>
         </a>
@@ -106,7 +113,8 @@
             <h3>全新，全面屏，全方位强大。</h3>
             <span><a href="#" class="b-link">进一步了解></a></span>
             <span><a href="#" class="b-link">购买></a></span>
-            <img src="https://www.apple.com/v/home/dz/images/promos/ipad-pro/ipad_pro__7b6504bb31_small.jpg" alt="" width="200px">
+            <img src="https://www.apple.com/v/home/dz/images/promos/ipad-pro/ipad_pro__7b6504bb31_small.jpg" alt=""
+                width="200px">
         </div>
         <div>
             <h2>MacBook Air</h2>
