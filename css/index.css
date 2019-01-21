@@ -5,8 +5,9 @@
 }
 
 main {
-    width: 886px 660px;
-    margin: auto 50% ;
+    width: 886px;
+    height: 660;
+    margin: auto auto ;
 }
 form {
     width: 480px;
