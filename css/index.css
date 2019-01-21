@@ -7,7 +7,7 @@
 
 main,
 footer {
-    width: 438Px;
+    width: 480Px;
     /* border: 1px solid #000000; */
     margin: 0 auto;
 }
@@ -15,7 +15,7 @@ footer {
 .qq {
     height: 59px;
     font-size: 44px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .day {
@@ -40,11 +40,12 @@ footer {
     border-radius: 4px;
     height: 50px;
     line-height: 50px;
-    width: 100%;
-    padding: 0px 20px;
-    
+    width: 460px;
+    /* padding: 0px 20px; */
+    padding-left: 20px;
     margin-bottom: 32px;
     font-size: 20px;
+    /* box-sizing: border-box； */
 }
 
 .f-required {
@@ -52,7 +53,7 @@ footer {
 }
 .tphone {
     display: inline-block;
-    width: 112px;
+    width: 152px;
     border: 1px solid #aaaaaa;
     border-radius: 4px;
     height: 50px;
