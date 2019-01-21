@@ -28,18 +28,17 @@
         </div>
     </header>
     <main>
-
+        <div class="welcome">
+            <h1 class="qq">欢迎注册QQ</h1>
+            <h3 class="day">每一天，乐在沟通</h3>
+            <a href="#"><span class="free">免费靓号</span></a>
+        </div>
         <form action="#" method="POST">
-            <div class="welcome">
-                <h1 class="qq">欢迎注册QQ</h1>
-                <h3 class="day">每一天，乐在沟通</h3>
-                <a href="#"><span class="free">免费靓号</span></a>
-            </div>
             <div class="f-nickname">
-                <input type="text" name="nickname" placeholder="昵称" id="user-nickname">
+                <input type="text" name="nickname" placeholder="昵称" class="user-nickname">
             </div>
             <div class="f-password">
-                <input type="password" name="password" placeholder="密码" id="user-password">
+                <input type="password" name="password" placeholder="密码" class="user-nickname">
                 <div class="f-required ">
                     <ul>
                         <li>不能包括空格</li>
@@ -49,7 +48,7 @@
                 </div>
             </div>
             <div class="form-cell-phone">
-                <select name="tnumber" id="">
+                <select name="tnumber" class="tphone">
                     <option value="+86">中国+86</option>
                     <option value="+852">中国香港特别行政区+852</option>
                     <option value="+853">中国澳门特别行政区+853</option>
@@ -57,15 +56,16 @@
                 </select>
                 <input type="text" name="phone" placeholder="手机号" class="nsearch">
             </div>
-            <div>
-                <span>可以通过手机找回密码</span>
+            <div class="a-text">
+
+                <span class="text">可以通过手机找回密码</span>
             </div>
             <div class="form-SMS">
                 <input type="text" name="SMS" placeholder="短信验证码">
                 <button type="button">发送短信验证码</button>
             </div>
             <div class="registered">
-                <button type="button">立即注册</button>
+                <button type="button" class="registered">立即注册</button>
             </div>
         </form>
     </main>
@@ -83,7 +83,7 @@
                 <li><a href="#">《QQ空间服务协议》</a></li>
             </ul>
         </div>
-        <div><span>Copyright © 1998-2019Tencent All Rights Reserved</span></div>
+        <div class="copyright"><span>Copyright © 1998-2019Tencent All Rights Reserved</span></div>
     </footer>
 </body>
 
