@@ -26,11 +26,10 @@ a{
     text-align: right;
 }
 
+
 .mac{
-    font-size: 10px;
-    
+    font-size: 10px; 
     height: 44px;
-    /* width: 1000px; */
     margin: 0 auto;
     padding: 0 186.5px;
     background-color: #313131;
@@ -52,10 +51,7 @@ a{
     display: none;
 }
 
-.main-box1 div {
-    /* width: 692px; */
-    /* margin: auto auto; */
-}
+
 
 .main-box1 {
     color: #ffffff;
@@ -65,8 +61,6 @@ a{
     background-color: #000;
     line-height: 40px;
     text-align: center;
-    /* width: 692px; */
-
 }
 
 .main-box1 p  {
@@ -94,7 +88,6 @@ a{
     font-size: 19px;
     line-height: 36px;
     font-weight: 400;
-    /* letter-spacing: .012em; */
     margin-bottom: 5px;
 }
 
@@ -110,34 +103,3 @@ a{
 
 
 
-
-
-
-
-
-
-
-
-/* .watch {
-    margin: 0px;
-    color: #000;
-}
-
-.red{
-    color: red;
-}
-
-.b-link { 
-    color: #359eff 
-}
-
-.b-link:hover{
-    color: blue;
-}
-
-.watch ::after{
-    content: "";
-    display:block;
-    clear: both;
-
-} */
