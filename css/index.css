@@ -4,6 +4,7 @@
     font-weight:normal;
     text-decoration: none;
     box-sizing: border-box;
+    vertical-align: middle;
 }
 
 a {
@@ -20,15 +21,19 @@ body {
 
 }
 .header-QQ {
-    font-family: -apple-system,"Helvetica Neue",Arial,"PingFang SC","Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei","Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC","Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",SimSun,sans-serif;
+    font-family: -apple-system,"Helvetica Neue",Arial,"PingFang SC",
+    "Hiragino Sans GB",STHeiti,"Microsoft YaHei","Microsoft JhengHei",
+    "Source Han Sans SC","Noto Sans CJK SC","Source Han Sans CN","Noto Sans SC",
+    "Source Han Sans TC","Noto Sans CJK TC","WenQuanYi Micro Hei",
+    SimSun,sans-serif;
     position: fixed;
     margin-left: 30px;
     margin-top: 18px;
-    /* padding-left: 46px; */
+
     font-size: 36px;
     height: 43px;
     line-height: 43px;
-    /* display: block; */
+
     color: #000;
 }
 .header-QQ img {
@@ -38,30 +43,79 @@ body {
     margin-left: 10px;
     float: left;
 }
+
 .nav-box {
-    height: 131px;
-    /* background-color: rgb(255, 113, 113); */
+    height: 105px;
+    /* width: 1064px; */
+    /* background-color: rgb(255, 113, 113); */ 
 }
+.nav-box ul {
+    float: right;
+    margin-top: 30px;
+    margin-right: 60px;
+    /* display: inline-block; */
+}
+.nav-box ul li {
+    border: 0;
+    padding:  0 20px;
+    float: left;
+    /* color: #000; */
+    /* color: #fff; */
+    font-size: 16px;
+}
+.liang-p {
+    margin-top: -14px;
+}
+
+.liang-n {
+    display: inline-block;
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px 0 0;
+    color: #fff;
+    font-weight: 300;
+    background-color: #f17b59;
+    border-style: none;
+    border-radius: 6px;
+}
+.nav-box select {
+    border: none;
+    font-size: 16px;
+    color: #666666;
+}
+
+.nav-box ul li a:hover {
+    color: #000;
+}
+
+.nav-box ul li select:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
 .header-nav {
     color: #000;
     font-size: 16px;
-    /* padding: 0 45px; */
     margin-top: 20px;
-    /* margin-ri: 60px; */
     float: right;
-
 }
 
 
-
+.bodybox {
+    width: 869px;
+    float: right;
+}
 
 
 main,
 footer {
     width: 480Px;
+    margin: 0 auto;
     /* border: 1px solid #000000; */
     /* float: right; */
-    margin-left: 770px;
+    /* margin-left: 770px; */
     /* margin: 0 1000px; */
 }
 
