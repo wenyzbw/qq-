@@ -29,9 +29,7 @@
     
 /* 公用部分开始 */
 body {
-background-color: rgb(255, 139, 139);
-
-
+    /* background-color: rgb(255, 139, 139); */
     font-family: "SF Pro SC","SF Pro Text","SF Pro Icons",
     "PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
@@ -267,7 +265,7 @@ footer p,
 footer a,
 footer span {
     color: rgb(51,51,51);
-    color: rgb(255, 0, 0);
+    /* color: rgb(255, 0, 0); */
 }
 footer p {
     font-size: 12px;
@@ -281,7 +279,7 @@ footer ul,
 footer .width195 {
     margin-top: 20px;
     float: left;
-    background-color: rgb(255, 132, 132);
+    /* background-color: rgb(255, 132, 132); */
     width: 195px;
 }
 
@@ -312,34 +310,49 @@ color: rgb(0, 112, 201);
 }
 
 
+.terms {
+    margin-top: 10px;
+}
 
 .terms-a {
     height: 27px;
-    float: left;
+    
 }
 .terms-a div:first-child {
+    float: left;
+    display: inline-block;
     width: 320px;
 }
 
 .terms-a ul {
-    
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 0;
     width: 520px;
 }
 
-
-
-
-.terms {
-    /* float: left; */
+.terms-a ul li {
+    padding: 0 10px;
+    float: left;
+    border-right: 1px solid  rgb(102, 102, 102);
 }
-.terms ul {
-    /* width: 600px; */
-    /* display: inline; */
-    /* float: right; */
+
+.terms-a li a {
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
 }
+
+
+.terms  a:hover {
+    color: rgb(51,51,51);
+}
+
 .terms li  {
     float: left;
 }
+
 
 
  /* 页尾部分结束  */
