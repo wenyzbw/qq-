@@ -1,7 +1,8 @@
-	/* css初始化开始 */
+/* css初始化开始 */
     * {
         margin: 0;
         padding: 0;  /* 清除内外边距 */
+      
     }
     ul {
         list-style: none; /* 去掉列表样式小点 */
@@ -26,11 +27,63 @@
     }
 /* css初始化结束 */
     
-/* 公用部分 */
+/* 公用部分开始 */
+body {
+background-color: rgb(255, 139, 139);
+
+
+    font-family: "SF Pro SC","SF Pro Text","SF Pro Icons",
+    "PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
 .fenxi {
     height: 10px;
     background-color: #444444;
+
 }
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+h2 {
+    font-weight: normal;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 20px;
+    /* line-height: 36px; */
+    font-weight: 400;
+    /* margin-bottom: 10px; */
+}
+
+.black {
+    color: #000;
+}
+
+.white {
+    color: #fff;
+}
+
+
+.alink {
+    line-height: 60px;
+    padding: 0 20px;
+    font-family: "SF Pro Icons";
+    font-size: 18px;
+    color: #6bf;
+}
+
+.alink span:hover {
+    text-decoration: underline;
+}
+/* 公用部分开始 */
 
 /* 导航栏开始 */
 .advertising {
@@ -103,37 +156,190 @@
     color: #a8a8aa;
 }
 
-.main-box1 h2 {
-    font-size: 28px;
+/* 限时优惠部分结束 */
+
+/* 满行盒子开始 */
+
+.iPhone-X,
+.iPhone-s,
+.iPhone-h,
+.iPhone-xin,
+.iPhone-watch {
+    text-align: center;
+    /* color: #ffffff; */
+    height: 580px;
+    padding-top: 20px;
+    /* background-color: rgb(97, 97, 97); */
+    /* background-image: url(); */
+}
+
+.iPhone-X {
+    background: #000000 url(https://www.apple.com/v/home/dz/images/heroes/iphone-xr/iphone_xr_5e40f_large.jpg) no-repeat   bottom center;
+}
+
+.iPhone-s {
+    background: #000000 url(https://www.apple.com/v/home/dz/images/heroes/iphone-xs/iphone_xs_0afef_large.jpg) no-repeat   bottom center;
+}
+
+.iPhone-h h2 {
     font-weight: 600;
-    line-height: 36px;
-    margin-bottom: 2px;
+    font-size: 40px
+}
+.iPhone-h{
+    margin-top: 10px;
+    background: #fafafa url(https://www.apple.com/cn/home/images/heroes/homepod/hero_large.jpg) no-repeat   bottom center;
+}
+/* 满行盒子结束 */
+
+/* 左右盒子开始 */
+
+.iPhone-xin,
+.iPhone-watch,
+.iPhone-world,
+.iPhone-ipad,
+.iPhone-macbook,
+.iPhone-airpods {
+    text-align: center;
+    margin-top: 10px;
+    height: 580px;
+    width: 730px;
+}
+.iPhone-xin h2,
+.iPhone-watch h2,
+.iPhone-world h2,
+.iPhone-ipad h2,
+.iPhone-macbook h2,
+.iPhone-airpods h2 {
+    padding-top: 40px;
+    font-weight: 600;
+}
+.iPhone-watch img {
+    padding-top: 40px;
 }
 
-.main-box1 h3 {
-    font-style: normal;
-    font-size: 19px;
-    line-height: 36px;
-    font-weight: 400;
-    margin-bottom: 5px;
+.left {
+    margin-left: 10px;
+    margin-right: 5px;
+    float: left;
 }
 
-.main-box1 a{
-    font-size: 21px;
-    color: #6bf;
+.right {
+    margin-left: 5px;
+    margin-right: 10px;
+    float: right;
+}
+
+.iPhone-xin {
+    background: #fafafa url(https://www.apple.com/cn/home/images/promos/cny-gift-guide/tile_large.jpg) no-repeat   bottom center;
+}
+.iPhone-watch {
+    background: #fafafa url(https://www.apple.com/cn/home/images/promos/apple-watch-series-4/all_new_large.jpg) no-repeat   bottom center;
 }
 
 
-.main-box1 span:hover {
+.iPhone-world {
+    background: #fafafa url(https://www.apple.com/cn/home/images/promos/iphone-shotOn/shot_on_iphone_large.jpg) no-repeat   bottom center;
+}
+.iPhone-world a {
+    color: #fff;
+}
+
+.iPhone-ipad {
+    background: #fafafa url(https://www.apple.com/v/home/dz/images/promos/ipad-pro/ipad_pro__7b6504bb31_large.jpg) no-repeat   bottom center;
+}
+.iPhone-macbook {
+    background: #fafafa url(https://www.apple.com/v/home/dz/images/promos/macbook-air/macbook_air__2f52481d_large.jpg) no-repeat   bottom center;
+}
+.iPhone-airpods {
+    background: #fafafa url(https://www.apple.com/v/home/dz/images/promos/airpods/airpods_ad44c_large.jpg) no-repeat   bottom center;
+}
+
+/* 左右盒子结束 */
+
+ /* 页尾部分开始  */
+footer {
+    float: left;
+    margin-top: 12px;
+    padding: 0px 230px;
+    background-color: #f2f2f2;
+}
+footer p,
+footer a,
+footer span {
+    color: rgb(51,51,51);
+    color: rgb(255, 0, 0);
+}
+footer p {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 20px 0;
+
+}
+
+
+footer ul,
+footer .width195 {
+    margin-top: 20px;
+    float: left;
+    background-color: rgb(255, 132, 132);
+    width: 195px;
+}
+
+.width195 {
+    width: 195px;
+}
+
+.width195 ul:first-child {
+    margin-bottom: 20px;
+}
+
+footer a {
+    line-height: 30px;
+    font-size: 12px;
+}
+footer a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.more a {
+color: rgb(0, 112, 201);
+}
+
+.more a:hover {
+    color: rgb(0, 112, 201);
     text-decoration: underline;
 }
 
 
-/* 限时优惠部分结束 */
 
-.iPhone-X {
-    color: #ffffff;
-    padding-top: 20px;
-    background-color: rgb(97, 97, 97);
-    /* background-image: url(https://www.apple.com/v/home/dz/images/heroes/iphone-xr/iphone_xr_5e40f_large.jpg); */
+.terms-a {
+    height: 27px;
+    float: left;
 }
+.terms-a div:first-child {
+    width: 320px;
+}
+
+.terms-a ul {
+    
+    width: 520px;
+}
+
+
+
+
+.terms {
+    /* float: left; */
+}
+.terms ul {
+    /* width: 600px; */
+    /* display: inline; */
+    /* float: right; */
+}
+.terms li  {
+    float: left;
+}
+
+
+ /* 页尾部分结束  */
