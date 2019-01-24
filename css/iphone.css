@@ -1,24 +1,40 @@
-
-
-* {
-    margin: 0;
-    padding: 0;
+	/* css初始化开始 */
+    * {
+        margin: 0;
+        padding: 0;  /* 清除内外边距 */
+    }
+    ul {
+        list-style: none; /* 去掉列表样式小点 */
+    }
+    .clearfix:before, .clearfix:after {   /* 清除浮动 */
+        display: table;
+        content: "";
+    }
+    .clearfix:after {
+        clear: both;
+    }
+    .clearfix {
+        *zoom: 1;
+    }
+    a {
+        color: #050505;
+        text-decoration: none;  /* 取消下划线 */
+    }
+    input {
+        border: 0;  /* 所有的表单边框为0 */
+        box-sizing: border-box; /* CSS3盒子模型 border 和 padding 都包含到 width 里面去 */
+    }
+/* css初始化结束 */
+    
+/* 公用部分 */
+.fenxi {
+    height: 10px;
+    background-color: #444444;
 }
-ul {
-    list-style: none;
-}
 
-
-a{
-    color: #a8a8aa;
-
-    text-decoration: none;
-}
-
-
+/* 导航栏开始 */
 .advertising {
     font-size: 10px;
-    color: #a8a8aa;
     height: 40px;
     line-height: 40px;
     padding: 0 186.5px;
@@ -26,22 +42,31 @@ a{
     text-align: right;
 }
 
+.advertising a {
+    color: #a8a8aa;
+}
 
 .mac{
     font-size: 10px; 
     height: 44px;
     margin: 0 auto;
-    padding: 0 186.5px;
+    padding: 0 160px;
     background-color: #313131;
     line-height: 44px;
 }
 
-.mac li {
+.mac li a {
     color: #ffffff;
     font-size: 14px;
-    padding: 0 36px;
+    padding: 0 40px;
     float: left;
 }
+
+.mac li a:hover {
+    color: #a8a8aa;
+}
+
+
 .mac img {
     width: 20px;
 }
@@ -51,8 +76,9 @@ a{
     display: none;
 }
 
+/* 导航栏结束 */
 
-
+/* 限时优惠部分开始 */
 .main-box1 {
     color: #ffffff;
     height: 212px;
@@ -61,6 +87,7 @@ a{
     background-color: #000;
     line-height: 40px;
     text-align: center;
+    /* margin-bottom: 20px; */
 }
 
 .main-box1 p  {
@@ -102,4 +129,11 @@ a{
 }
 
 
+/* 限时优惠部分结束 */
 
+.iPhone-X {
+    color: #ffffff;
+    padding-top: 20px;
+    background-color: rgb(97, 97, 97);
+    /* background-image: url(https://www.apple.com/v/home/dz/images/heroes/iphone-xr/iphone_xr_5e40f_large.jpg); */
+}
