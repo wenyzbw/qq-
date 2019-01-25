@@ -16,7 +16,8 @@ a {
 
 
 body {
-
+    /* margin: auto auto; */
+    width: 1366px;
     background:  url(https://4.url.cn/zc/v3/img/01-3.jpg) 0 0 no-repeat;
     background-size: 480px ;
     background-attachment:fixed;
@@ -48,6 +49,10 @@ body {
     float: left;
 }
 
+.email-p {
+    margin-top: -4px;
+}
+
 .nav-box {
     height: 105px;
     /* width: 1064px; */
@@ -69,13 +74,12 @@ body {
 }
 .liang-p {
     margin-top: -14px;
+    margin-left: -10px;
 }
 
 .liang-n {
     display: inline-block;
     font-size: 16px;
-    height: 24px;
-    line-height: 24px;
     padding: 0 10px 0 0;
     color: #fff;
     font-weight: 300;
@@ -242,4 +246,5 @@ li{
     font-size: 14px;
     height: 14px;
     color: #999;
+    text-align: center;
 }
