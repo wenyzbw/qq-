@@ -85,6 +85,12 @@ h3 {
 /* 公用部分开始 */
 
 /* 导航栏开始 */
+header {
+    top: 0;
+    left: 0;
+    width: 1366px;
+    position: fixed;
+}
 .advertising {
     height: 40px;
     line-height: 40px;
@@ -128,6 +134,7 @@ h3 {
 
 /* 限时优惠部分开始 */
 .main-box1 {
+    margin-top: 84px;
     color: #ffffff;
     height: 212px;
     width: auto;
