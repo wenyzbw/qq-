@@ -1,0 +1,93 @@
+
+/* css初始化开始 */
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    color: #bdbdc0;
+    text-decoration: none;
+}
+
+
+
+/* css初始化结束 */
+
+
+/* 公共类开始 */
+
+
+
+
+
+
+
+/* 公共类结束 */
+body {
+    width: 1366px;
+}
+
+
+
+
+
+/* 顶部开始 */
+.top {
+    /* background-color: rgb(255, 164, 164); */
+    height: 100px;
+    padding: 0 170px;
+
+}
+.logo img {
+    height: 40px;
+    margin-top: 28px;
+    float: left;
+}
+.fmapp {
+    color: #bdbdc0;
+    font-size: 12px;
+    margin-top: 31px;
+    margin-left: 40px;
+    float: left;
+}
+
+.login {
+    margin-top: 50px;
+    color: #bdbdc0;
+    float: right;
+}
+/* .login i {
+    height: 12px;
+    border: 1px solid #bdbdc0;
+} */
+
+/* 顶部结束 */
+
+
+/* 左侧二维码开始 */
+.code {
+    float: left;
+    margin-top: 95px;
+    margin-left: 265px;
+    background-color: rgb(255, 164, 164);
+    width: 95px;
+    height: 140px;
+
+}
+.code img {
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+}
+.code span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+}
+/* 左侧二维码结束 */
+
+
