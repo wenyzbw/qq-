@@ -165,9 +165,11 @@ hr {
 
 
 .song-a {
+
     height: 24px;
 }
 .song-a a i {
+    color: rgb(74, 74, 74);
     font-size: 14px;
 }
 
@@ -178,6 +180,7 @@ hr {
 }
 
 .song-b a i {
+    color: rgb(97, 97, 97);
     font-size: 26px;
 }
 
@@ -256,10 +259,14 @@ footer {
     /* margin: 0 auto; */
 }
 
+
+
+
+
 .foot li a:hover,
-.song-a a:hover,
-.song-b a:hover {
-    color: #585858;
+.song-a i:hover,
+.song-b i:hover {
+    color: #252525;
 }
 
 
