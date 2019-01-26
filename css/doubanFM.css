@@ -7,16 +7,16 @@
 
 }
 
-.clearfix:before, .clearfix:after {   /* 清除浮动 */
-    display: table;
-    content: "";
-}
-.clearfix:after {
+/* .clearfix::after {
+    content: '';
+    display: block;
     clear: both;
-}
-.clearfix {
-    *zoom: 1;
-}
+} */
+
+/* css初始化结束 */
+
+
+/* 公共类开始 */
 
 ul {
     list-style: none;
@@ -28,27 +28,15 @@ a {
 }
 
 
-
-/* css初始化结束 */
-
-
-/* 公共类开始 */
-
-
-
-
-
-
-
 /* 公共类结束 */
+
 body {
     width: 1366px;
 }
 
-.bc-gray {
+.page {
     background-color: #fafafa;
 }
-
 
 
 /* 顶部开始 */
@@ -63,7 +51,7 @@ body {
     margin-top: 28px;
     float: left;
 }
-.fmapp {
+.download-feedback {
     color: #bdbdc0;
     font-size: 12px;
     margin-top: 31px;
@@ -72,20 +60,17 @@ body {
 }
 
 .login {
+    font-size: 12px;
     margin-top: 50px;
     color: #bdbdc0;
     float: right;
 }
-/* .login i {
-    height: 12px;
-    border: 1px solid #bdbdc0;
-} */
 
 /* 顶部结束 */
 
 
 /* 左侧二维码开始 */
-.code {
+.qr-code {
     float: left;
     margin-top: 95px;
     margin-left: 265px;
@@ -94,12 +79,12 @@ body {
     height: 140px;
 
 }
-.code img {
+.qr-code img {
     display: block;
     margin: 0 auto;
     width: 90px;
 }
-.code span {
+.qr-code span {
     display: block;
     text-align: center;
     font-size: 12px;
@@ -159,7 +144,7 @@ ul li{
 
 .song-a li:nth-child(1) {
     padding-left: 75px;
-    padding-right: 257px;
+    padding-right: 256px;
 }
 .song-a li:nth-child(2) {
     padding-right: 30px;
@@ -169,33 +154,39 @@ ul li{
 }
 
 hr {
-    width: 453px;
+    margin-left: 23px;
+    width: 430px;
 }
 
 
 
 .song-a {
-    font-size: 12px;
     height: 24px;
+}
+.song-a a i {
+    font-size: 14px;
 }
 
 
-
 .song-b {
-    font-size: 25px;
     margin-top: 60px;
     height: 24px;
 }
 
+.song-b a i {
+    font-size: 26px;
+}
+
+
 .song-b li:nth-child(1) {
     padding-left: 20px;
-    padding-right: 36px;
+    padding-right: 33px;
 }
 .song-b li:nth-child(2) {
-    padding-right: 260px;
+    padding-right: 244px;
 }
 .song-b li:nth-child(3) {
-    padding-right: 75px;
+    padding-right: 56px;
 }
 
 
@@ -233,14 +224,10 @@ hr {
     left: 1186px;
     position: absolute;
 }
-/* .icon-jiantou-shang-cuxiantiao {
-    width: 40px;   
-    font-size: 40px；                          iconfont图标可以改大小吗
-}
 
-.iconfont {
-    font-size: 40px；       
-} */
+.arrow i {
+    font-size: 26px;
+}
 
 
 footer {
