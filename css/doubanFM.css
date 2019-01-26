@@ -23,7 +23,8 @@ ul {
 }
 
 a {
-    color: #bdbdc0;
+    color: #8f8e94;
+    /* color: #bdbdc0; */
     text-decoration: none;
 }
 
@@ -52,7 +53,8 @@ body {
     float: left;
 }
 .download-feedback {
-    color: #bdbdc0;
+    color: #8f8e94;
+    /* color: #bdbdc0; */
     font-size: 12px;
     margin-top: 31px;
     margin-left: 40px;
@@ -62,7 +64,8 @@ body {
 .login {
     font-size: 12px;
     margin-top: 50px;
-    color: #bdbdc0;
+    color: #8f8e94;
+    /* color: #bdbdc0; */
     float: right;
 }
 
@@ -112,7 +115,8 @@ main {
     color: #000;
 }
 .song h2 a {
-    color: #bdbdc0;
+    color: rgb(74, 74, 74);
+    /* color: #bdbdc0; */
 }
 
 .song h1 a:hover,
