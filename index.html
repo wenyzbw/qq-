@@ -46,10 +46,10 @@
             </div>
             <form action="#" method="POST">
                 <div class="f-nickname">
-                    <input type="text" onfocus="handlerforce()" name="nickname" placeholder="昵称" class="user-nickname">
+                    <input type="text" onblur="lostName()" name="nickname" placeholder="昵称" class="user-nickname">
                 </div>
                 <div class="f-password">
-                    <input type="password" name="password" placeholder="密码" class="user-nickname">
+                    <input type="password" onblur="lostCode()" name="password" placeholder="密码" class="user-nickname">
                     <div class="f-required ">
                         <ul>
                             <li>不能包括空格</li>
@@ -76,7 +76,7 @@
                     <button type="button">发送短信验证码</button>
                 </div>
                 <div class="registered">
-                    <button type="button" class="registered">立即注册</button>
+                    <button type="button" class="registered" onclick="register()" >立即注册</button>
                 </div>
             </form>
         </main>
